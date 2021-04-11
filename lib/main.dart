@@ -21,14 +21,23 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/avatar.jpeg'),
               ),
               Text(
-                'Runyasak Chaengnaimuang',
+                'Runyasak',
                 style: TextStyle(
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                   fontFamily: 'Pacifico',
                 ),
-                textAlign: TextAlign.center,
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontSize: 20,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                ),
               )
             ],
           ),
