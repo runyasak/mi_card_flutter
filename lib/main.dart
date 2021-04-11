@@ -15,27 +15,20 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Container(
-                height: 100.0,
-                width: 100.0,
-                padding: EdgeInsets.all(20.0),
-                color: Colors.white,
-                child: Text('Hello'),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/avatar.jpeg'),
               ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.blue,
-                child: Text('Container2'),
-              ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.red,
-                child: Text('Container3'),
-              ),
+              Text(
+                'Runyasak Chaengnaimuang',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+                textAlign: TextAlign.center,
+              )
             ],
           ),
         ),
